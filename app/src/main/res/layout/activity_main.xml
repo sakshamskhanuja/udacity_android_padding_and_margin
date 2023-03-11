@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- beach.jpg ImageView-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/beach_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beach" />
+
+    <!-- You're invited! TextView -->
+    <TextView
+        style="@style/Text"
+        android:paddingTop="@dimen/paddingDefault"
+        android:paddingBottom="@dimen/paddingSmall"
+        android:text="@string/big_text"
+        android:textSize="@dimen/bigText" />
+
+    <!-- Bonfire at the beach TextView -->
+    <TextView
+        style="@style/Text"
+        android:paddingBottom="@dimen/paddingDefault"
+        android:text="@string/small_text"
+        android:textSize="@dimen/heading" />
+</LinearLayout>

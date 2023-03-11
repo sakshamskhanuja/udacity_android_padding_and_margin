@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Size -->
+    <dimen name="bigText">44sp</dimen>
+    <dimen name="heading">30sp</dimen>
+
+    <!-- Padding -->
+    <dimen name="paddingSmall">8dp</dimen>
+    <dimen name="paddingDefault">16dp</dimen>
+</resources>
