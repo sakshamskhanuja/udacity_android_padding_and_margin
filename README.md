@@ -6,10 +6,7 @@ The application uses ```android:padding``` attribute to introduce spacing among 
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout ...>
-
-    ...
-
+<LinearLayout>
     <!-- You're invited! TextView -->
     <TextView
         style="@style/Text"
